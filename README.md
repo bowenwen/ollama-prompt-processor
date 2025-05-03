@@ -18,13 +18,12 @@ It's designed specifically for tasks like categorizing free-text survey response
 ## Prerequisites
 
 1.  **Python:** Version 3.7 or higher recommended.
-2.  **Ollama:** You need a running instance of Ollama. Download and install it from [https://ollama.com/](https://ollama.com/).
+2.  **Ollama:** You need a running instance of Ollama API. Download and install it from [https://ollama.com/download](https://ollama.com/download).
 3.  **Ollama Model:** You need to have pulled the model you intend to use within Ollama (e.g., `ollama pull llama3`). Ensure the model name used in the script matches an available model in your Ollama instance.
 4.  **Dependencies:** Install the required Python package.
 
 ## Setup
 
-Ollama is required, please download and install Ollama from https://ollama.com/download.
 
 1.  **Clone the repository (or create the files):**
     ```bash
