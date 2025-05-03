@@ -24,6 +24,8 @@ It's designed specifically for tasks like categorizing free-text survey response
 
 ## Setup
 
+Ollama is required, please download and install Ollama from https://ollama.com/download.
+
 1.  **Clone the repository (or create the files):**
     ```bash
     git clone <repository_url> # Or manually create the directory structure and files
@@ -89,17 +91,6 @@ OUTPUT_CSV=results/output_responses.csv
 *   `--timeout` (Optional): API timeout (seconds). Overrides `OLLAMA_TIMEOUT` env var. Defaults to `60`.
 *   `--delay` (Optional): Delay between API calls (seconds). Overrides `PROCESS_DELAY` env var. Defaults to `0.5`.
 
-## Setup
-
-...
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  **Create `.env` file (Optional):**
-    *   Copy `.env.example` to `.env` (if you create an example) or create `.env` manually.
-    *   Customize the settings within the `.env` file.
-...
 
 ## Usage
 
